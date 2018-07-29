@@ -14,7 +14,7 @@ Why contact the SpaceX-Api directly, when you can work through a middle man?
 ## Local Setup
 - Download this repo
 - You can use Visual Studio to open the sln file, and press IISExpress with the Api as your startup project. This should take you to: http://localhost:54398/swagger.
-- For Docker, go to the DockerFile location in terminal and it docker build and then docker run using the container id. You can find the container id with "docker ps". This is experimental, so please check your local settings.
+- For Docker, go to the DockerFile location in terminal and it docker build and then docker run. This is still experimental so may be dependent on your local Docker setup.
 ![Docker Build](Images/dockerbuild.png)
 
 ## Next Steps
