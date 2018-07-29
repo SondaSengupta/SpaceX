@@ -7,13 +7,13 @@ Why contact the SpaceX-Api directly, when you can work through a middle man?
 ## Features
 - Exposes Launchpad information regarding Id, Name, and Status.
 - Filter launchpads by status, partial or whole name, or both.
-- You can find documentation of this api by its Swagger page. It is found on 
+- You can find documentation of this api by its Swagger page. It is found on http://localhost:54398/swagger
 
 ![Swagger UI](Images/swagger.png)
 
 ## Local Setup
 - Download this repo
-- You can use Visual Studio to open the sln file, and press IISExpress. 
+- You can use Visual Studio to open the sln file, and press IISExpress with the Api as your startup project. This should take you to: http://localhost:54398/swagger.
 - For Docker, go to the DockerFile location in terminal and it docker build and then docker run using the container id. You can find the container id with "docker ps". This is experimental, so please check your local settings.
 ![Docker Build](Images/dockerbuild.png)
 
